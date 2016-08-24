@@ -4,7 +4,7 @@ operation: "PNSubscribeOperation"
 ]
 
 statusEvent[
-category""PNUnknownCategory"
+category:"PNUnknownCategory"
 error:true
 errorData :[
 Error: Not Found at f.<anonymous> (https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.5.min.js:1:11824) at f.r.emit (https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.5.min.js:1:18543) at XMLHttpRequest.n.onreadystatechange (https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.5.min.js:1:15863)
