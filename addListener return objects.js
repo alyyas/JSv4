@@ -1,9 +1,9 @@
-statusEvent --
+status
 [Objectcategory: "PNConnectedCategory"
 operation: "PNSubscribeOperation"
 ]
 
-statusEvent[
+status[
 category:"PNUnknownCategory"
 error:true
 errorData :[
@@ -25,7 +25,9 @@ message:[text:"hey"]
 subscribedChannel:"my_channel"
 timetoken:"14720276573113294"
 ]
-presenceEvent[
+
+
+presence[
 action:"join"
 actualChannel:null
 occupancy:1
